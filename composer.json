@@ -40,7 +40,7 @@
     ],
     "require": {
         "php": "^7.4.0",
-        "felixkiss/uniquewith-validator": "^3.4.0",
+        "felixkiss/uniquewith-validator": "dev-master",
         "illuminate/auth": "^8.0.0",
         "illuminate/bus": "^8.0.0",
         "illuminate/contracts": "^8.0.0",
@@ -76,6 +76,12 @@
         "preferred-install": "dist",
         "optimize-autoloader": true
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/elvendor/uniquewith-validator"
+        }
+    ],
     "extra": {
         "laravel": {
             "providers": [
